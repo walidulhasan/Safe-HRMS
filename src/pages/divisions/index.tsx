@@ -14,7 +14,7 @@ return (
     <Fragment>
       <CountryProvider>
         <CountryDDL onSelectionUpdate={handleSelectionUpdate} />
-        <Grid item xs={12}>
+        <Grid item xs={12} sm={12}>
           <Card>
             <DivisionsList />
           </Card>
